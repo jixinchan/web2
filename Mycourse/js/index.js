@@ -28,17 +28,17 @@ var t,z,p;
 $(document).ready(function(){
 	$('#b1').click(function(){
 		$('#b1').fadeOut(3000);
-		t=setTimeout(function(){window.open('sign.html','_self')},2500);
+		t=setTimeout(function(){window.open('https://htmlpreview.github.io/?https://github.com/jixinchan/web2/blob/master/Mycourse/sign.html','_self')},2500);
 	});
 	$('#b2').click(function(){
 		$('#b2').fadeOut(3000);
-		z=setTimeout(function(){window.open('list.html','_self')},2500);
+		z=setTimeout(function(){window.open('https://htmlpreview.github.io/?https://github.com/jixinchan/web2/blob/master/Mycourse/list.html','_self')},2500);
 	});
 	$('#b3').click(function(){
 		$('#b3').fadeOut(3000);
 		p=setTimeout(function()
 		{
-			window.open('index.html','_self');
+			window.open('https://htmlpreview.github.io/?https://github.com/jixinchan/web2/blob/master/Mycourse/index.html','_self');
 		},2500);
 	});
 })
