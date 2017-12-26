@@ -49,7 +49,7 @@ $(document).ready(function(){
 				}
 				else{
 					clearInterval(s);
-					window.open('list.html')
+					window.open('https://htmlpreview.github.io/?https://github.com/jixinchan/web2/blob/master/Mycourse/list.html')
 				}
 			},speed);
 		}
